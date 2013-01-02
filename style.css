@@ -1,0 +1,130 @@
+body { 
+font-family: Arial, sans-serif; 
+line-height: 1.4;
+font-size: 12px;
+background: #111111 url(images/bg.jpg);
+margin: 0;
+padding: 0;
+color: #ffffff;
+width: 1000px;
+}
+
+a { color: #9BA6BF; text-decoration: none;}
+a:hover { text-decoration: underline; }
+
+#wrap { 
+width: 800px;
+	height: auto !important;
+	height: 100%;
+margin: 30px auto;
+background-color: #000000;
+opacity: 0.8;
+}
+
+#header {
+background-color: #FFFFFF;
+height: 130px;
+}
+#header h1 {
+font-family: Arial, sans-serif; 
+margin: 0;
+padding: 35px 0 0 30px;
+font-weight: 100;
+color: #8C98BC;
+line-height: 25px;
+}
+#header h1 a { text-decoration: none; color: #556799; }
+#header h1 a:hover { text-decoration: none; border-bottom: 1px solid #556799; color: #556799; }
+#header h2 { padding: 0 0 0 30px; margin: 0; color: #9BA6BF; font-weight: 100; }
+
+#menu {
+height: 40px;
+line-height: 40px;
+}
+
+#menu ul {
+list-style-type: none;
+margin: 0;
+padding-left: 20px;
+}
+#menu ul li {
+display: block;
+float: left;
+}
+#menu ul li a {
+display: block;
+padding: 0 10px 0 10px;
+text-decoration: none;
+color: #fff;
+font-weight: 100;
+}
+#menu ul li a:hover {
+color: #fff;
+background: url(images/menuover.png) repeat-x;
+}
+
+#top { 
+background: url(images/top.png) no-repeat;
+padding: 10px 0;
+}
+
+#contentwrap {
+background: url(images/content.png) repeat-x;
+}
+
+#content {
+padding: 0 30px 0 20px;
+float: right;
+width: 750px;
+margin: 15px 0;
+background-color: #333333;
+}
+#content h2 {
+margin: 0;
+color: #9BA6BF;
+line-height: 30px;
+font-weight: 100;
+}
+
+#content p { padding: 0 0 10px 0; color: #ffffff;}
+#content ul { padding: 0 20px 10px 30px; }
+
+#sidebar {
+float: left;
+margin: 15px 0;
+width: 200px;
+}
+
+#sidebar h3 {
+height: 30px;
+line-height: 30px;
+font-weight: 100;
+margin: 0; padding: 0 0 0 10px; 
+color: #414B5F;
+}
+
+#sidebar p { padding: 0 10px 10px 10px; color: #232323; }
+
+#sidebar ul {
+padding: 5px 0 10px 30px;
+margin: 0;
+color: #556799;
+}
+
+#sidebar ul li {
+padding: 0;
+margin: 0;
+}
+#sidebar ul li a {  }
+
+#footer { 
+color: #FFFFFF;
+text-align: center;
+height:60px;
+line-height: 60px;
+clear: both;
+
+}
+#footer p { padding: 0; margin: 0; }
+#footer a { color: #fff; }
+#footer a:hover { text-decoration: underline; }
